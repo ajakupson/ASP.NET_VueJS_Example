@@ -1,0 +1,107 @@
+﻿html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: auto;
+}
+.container {
+    width: auto;
+    min-width: 700px;
+    height: 100%;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+.product {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    position: relative;
+}
+.product-image-container {
+    width: 150px;
+    margin-right: 20px;
+}
+.product-image-container img {
+    width: 150px;
+    height: 150px;
+}
+.product-details-container {
+    height: auto;
+    margin-left: 20px;
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+
+}
+product-details-container-2 {
+    height: auto;
+    margin-left: 20px;
+}
+.product-more-details-link-button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    padding: 10px;
+    display: inline-block;
+}
+.product-price-container {
+    border: 1px solid gray;
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.product-general-info {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+}
+.product-specifications {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.product-details-spec {
+    padding-left: 20px;
+}
+.product-description-and-price {
+    width: 100%;
+    border: 1px solid gray;
+    position: relative;
+}
+.product-description {
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: top;
+    width: 83%;
+}
+.product-price {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 25px;
+}
