@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ADM_Interactive_TestTask1": {
+    "ASPNET_VueJS_Example": {
       "commandName": "Project",
       "launchBrowser": false,
       "launchUrl": "home",
